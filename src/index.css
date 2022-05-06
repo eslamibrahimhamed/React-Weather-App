@@ -1,0 +1,38 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+}
+
+.App {
+  background: linear-gradient(#7b7bb4, #5ccaca);
+  height: 100vh;
+  display: flex;
+}
+
+.child-content {
+  background-color: #ccc;
+  height: auto;
+  margin: auto;
+  padding: 100px 70px;
+}
+
+.form-control {
+  width: 37% !important;
+}
+
+.weather {
+  margin-top: 10rem;
+}
+
+.weather p {
+  border-bottom: 1px solid #2e7d32;
+  margin-bottom: 45px;
+}
+.weather span {
+  color: rgb(156, 39, 176);
+
+  font-weight: bold;
+}
